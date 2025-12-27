@@ -12,7 +12,7 @@ Hanzi Dictionary & Strokes (the "App", package name `com.yourstudio.hskstroke.bi
 | Character resources | Local JSON stroke data bundled inside the APK. | Assets only; not user data. |
 | Practice history | Characters practiced, stroke progress, and history needed to resume. | Stored locally using Android DataStore; never uploaded. |
 | Settings | Board options (grid, stroke color, template visibility), language override. | Stored locally via DataStore. |
-| Crash/feedback logs *(optional)* | If you explicitly choose "Send Feedback" we include a plain-text log to help debug issues. | Stored temporarily in app-private storage; shared only through your chosen email/share app. |
+| Dictionary history | Recent lookups for quick access. | Stored locally via DataStore; never uploaded. |
 
 We do **not** collect names, contacts, or precise location.
 
@@ -21,20 +21,18 @@ We do **not** collect names, contacts, or precise location.
 - Resume your latest character/course session.
 - Display learning statistics and practice history on your device.
 - Remember board and demo preferences.
-- Investigate bugs only when you manually share feedback logs.
 
-No information leaves your device unless you explicitly export it (for example, by emailing/sharing feedback).
+The App does not upload any data. All storage is local-only on your device.
 
 ## 3. Permissions
 
 | Permission | Reason |
 | --- | --- |
-| `android.permission.INTERNET` | Used only for optional downloads of missing character stroke data and future external links. The core learning features work offline. |
+| *(none)* | The App does not request network access or any dangerous permissions. |
 
 ## 4. Your Controls
 
 - **Reset data**: Android Settings > Apps > (this app) > Storage > Clear data.
-- **Feedback logs**: Before sending, you can preview and edit the log text.
 
 ## 5. Children's Privacy
 
