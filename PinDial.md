@@ -1,106 +1,94 @@
-# Privacy Policy (P0) — PinDial
+# Privacy Policy
 
-Effective date: 2025-12-21
+Effective date: 2026-01-05
 
-This Privacy Policy explains how **PinDial** (“the App”) handles information when you use it. PinDial is designed to be privacy-first and does **not** read your system contacts, call logs, or SMS.
+This Privacy Policy explains how PinDial (“the App”) handles information when you use it.
 
-If you have questions, contact: **qq260316514@gmail.com**
+## Summary
 
-## 1) What information the App handles
+- The App does **not** read your system contacts, call logs, or SMS.
+- Pins you create (phone number + map location) are stored **locally** on your device in **encrypted** storage.
+- You can export/import an **encrypted** backup file from the Settings screen.
+- Pro (optional, via Google Play in-app purchase): unlimited Pins + encrypted contact card export/import.
+- Reverse geocoding is optional; when enabled, selected coordinates are sent to a backend proxy and then to Google to resolve country/region names.
 
-### 1.1 Information you enter (stored on your device)
+## Information you provide
 
-PinDial lets you manually create and manage “pins” on a map. The App may store the following information **only on your device**:
+When you create a Pin, you may provide:
 
-- Contact name (optional)
-- Phone number(s) (optional; contact phones and/or location-specific phones)
+- Name (optional)
+- Phone number
 - Notes (optional)
 - Tags (optional)
-- Location coordinates you select on the map (latitude/longitude)
-- Optional location labels / address notes you type
-- Optional region fields (e.g., country/administrative area) if reverse geocoding is enabled
+- Location you select on the map (latitude/longitude)
 
-### 1.2 Information processed for map display
+## How the App uses this information
 
-To display map tiles, the App uses **Google Maps SDK for Android**. Your device will connect to Google’s services to load map content.
+The App uses your Pins to:
 
-### 1.3 Reverse geocoding (optional)
+- Display markers on the map
+- Search Pins around a selected center point and radius
+- Open your phone dialer using `ACTION_DIAL` when you tap “Call”
 
-If reverse geocoding is enabled in the build/configuration, the App may send the coordinates you selected to:
+## In-app purchases
 
-- A reverse-geocoding endpoint you configure (if any), and/or
-- Google Geocoding API (via that endpoint)
+If you choose to buy Pro, the purchase is processed by Google Play Billing. The App may query your purchase status (product ID and purchase token) from Google Play on your device to unlock Pro features and to restore purchases after reinstall.
 
-This is used only to derive human-readable region information (e.g., country/region). PinDial is intended to avoid storing reverse-geocoding inputs on a server beyond transient processing; however, you should review the hosting provider’s logging settings if you operate the endpoint.
+We do not receive or store your payment card details.
 
-### 1.4 What the App does **not** access
+## What the App does not access
 
-PinDial does not request or access:
+The App does not request or access:
 
-- Your system contacts
+- System contacts
 - Call logs
-- SMS / messages
-- Background location
+- SMS messages
 
-PinDial uses the system dialer via `ACTION_DIAL` and does not auto-call numbers.
+## Third-party services
 
-## 2) How the App uses information
+The App uses third-party services for core functionality:
 
-PinDial uses your information to:
+- Google Maps SDK for Android (map display)
+- Google Play Billing (in-app purchases)
+- Google Geocoding API (only if reverse geocoding is enabled)
 
-- Create, edit, and display your pins on a map
-- Search pins near a selected center point and radius
-- Let you open the system dialer for a stored phone number
-- Export and import encrypted backups you create manually
-- (Optional) display region information derived from reverse geocoding
+These providers may process standard request metadata (for example, IP address) as part of providing the service. Please review their policies for details.
 
-## 3) Sharing and third-party services
+## Reverse geocoding (optional)
 
-PinDial does not sell your personal information and does not include ads in P0.
+If reverse geocoding is enabled in your build/configuration, the App may send the coordinates of a Pin to:
 
-The App relies on third-party services for core functionality:
+1) a backend proxy you control, and then
+2) the Google Geocoding API,
+   to obtain country/administrative area information for display.
 
-- **Google Maps SDK for Android** (map display and tile loading)
-- **Google Geocoding API** (only if reverse geocoding is enabled)
+We do not store your Pins on our servers in P0. Network providers and third parties may process standard request metadata (for example, IP address) as part of providing the service.
 
-When you tap “Dial”, the phone number is passed to your device’s dialer app to populate the dialing screen.
+## Storage and retention
 
-## 4) Data storage, encryption, and retention
+- Local storage: Pins are stored on your device until you delete them or uninstall the App.
+- System backups: Android system backup is disabled for this App. Use the in-app encrypted export feature for backups.
 
-### 4.1 On-device storage
-
-Your pin data is stored locally on your device and protected with encryption at rest (Android Keystore + AES-GCM).
-
-### 4.2 Manual backup export/import
-
-If you export a backup, PinDial creates an encrypted file protected by the password you choose. If you forget the password, the backup cannot be recovered.
-
-### 4.3 Retention
-
-Your data remains on your device until you delete it or uninstall the App.
-
-## 5) Your choices and controls
+## Your choices
 
 You can:
 
-- Add and edit your data at any time
-- Export an encrypted backup and import it later
-- Delete individual entries
-- Use “Clear all contacts” to remove all stored data from the device
-- Uninstall the App to remove local data
+- Delete individual Pins
+- Clear all contacts from Settings
+- Export/import an encrypted backup file
 
-## 6) Security
+## Security
 
-PinDial uses reasonable safeguards designed to protect your information, including encryption at rest and encrypted backups. No method of storage or transmission is 100% secure; you are responsible for protecting your device and any exported backup files.
+We use:
 
-## 7) Children’s privacy
+- Encryption at rest for local storage
+- Password-based encryption for exported backup files
+- HTTPS for network requests (when reverse geocoding is enabled)
 
-PinDial is not intended for children under 13. If you believe a child has provided personal information, contact us and we will take appropriate steps.
+## Children
 
-## 8) Changes to this policy
+The App is not directed to children under 13.
 
-We may update this Privacy Policy from time to time. We will update the “Effective date” above when changes are made.
+## Contact
 
-## 9) Contact
-
-Email: **qq260316514@gmail.com**
+Support email: qq260316514@gmail.com
