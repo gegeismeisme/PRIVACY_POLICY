@@ -1,69 +1,59 @@
-# Privacy Policy for Morepoke Calendar
+---
+title: Privacy Policy
+app: LunarWise
+last_updated: 2026-01-11
+language: en
+---
 
-**Last Updated:** 2025-12-25
+# Privacy Policy
 
-## 1. Introduction
+Last Updated: 2026-01-11
 
-Welcome to **Morepoke Calendar** ("we," "our," or "us"). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information when you use our mobile application (the "App").
+LunarWise is an entertainment and reference app (Huangli, astrology). We respect your privacy.
 
-By downloading or using the App, you agree to the terms of this Privacy Policy.
+## Summary
 
-## 2. Information Collection and Use
+- No account required. We do not operate our own backend service.
+- Your data stays on your device unless you choose to share it (e.g., sharing an image via the system share sheet).
+- We do not show ads.
+- This version does not offer in-app purchases.
 
-### 2.1 Personal Information
+## Data We Collect
 
-We do **not** collect, store, or share any personally identifiable information (PII) such as your name, address, email address, or phone number.
+We do not collect personal data to our own servers.
 
-### 2.2 Non-Personal Information
+## Data Stored On Your Device
 
-We may collect non-personal information about your device, such as:
+LunarWise stores some data locally on your device to provide app features:
 
-- Device model and manufacturer
-- Operating system version
-- General location data (e.g., country or region) based on IP address
+- App preferences (e.g., language, selected calendars)
+- Disclaimer acceptance status
+- Selected sun sign (optional)
+- Birth profile (optional: date/time, timezone, and manually entered latitude/longitude)
+- Manually entered location latitude/longitude (optional; used only for local calculations)
 
-### 2.3 Third-Party Data Collection
+You can clear this data by clearing the app storage or uninstalling the app.
 
-Our App uses third-party services that may collect information used to identify you. The primary purpose of this collection is for:
+## Location
 
-- **Advertising**: To serve relevant ads.
-- **Analytics**: To understand how the app is used (crash reporting, usage metrics).
-- **Consent Management**: To store your privacy preferences (GDPR/CCPA).
+If you choose to enter a location (latitude/longitude), it is stored locally and used only for local calculations (e.g., time-based features). We do not request precise location automatically in this version.
 
-Links to privacy policies of third-party service providers used by the App:
+## Sharing
 
-- [Google Play Services](https://policies.google.com/privacy)
-- [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
-- [Google User Messaging Platform (UMP)](https://tools.google.com/dlpage/gaoptout)
+If you use the share feature:
 
-## 3. Advertising (AdMob)
+- Images are generated locally on your device.
+- Images are shared via Android's system share sheet.
+- Shared images may be temporarily stored in the app cache and may be removed by the system.
 
-We use Google AdMob to display advertisements. AdMob may use device identifiers (like the advertising ID) and other data to provide personalized ads.
+## Notifications
 
-- **European Users (GDPR)**: We implement the Google User Messaging Platform (UMP) to request your consent before showing personalized ads. You can manage your consent preferences within the App settings.
-- **California Users (CCPA)**: You have the right to opt-out of the sale of personal information.
+If you enable daily reminders, the app will schedule local notifications on your device. Notification permission may be required depending on your Android version.
 
-## 4. App Permissions
+## Changes To This Policy
 
-The App may request the following permissions to function correctly:
+We may update this policy from time to time. The "Last Updated" date will reflect the latest version.
 
-- **Internet Access**: Required to load advertisements, update calendar data, and download translation resources.
-- **Network State**: To check for internet connectivity.
+## Contact
 
-## 5. Security
-
-We strive to use commercially acceptable means to protect your information. However, remember that no method of transmission over the internet or method of electronic storage is 100% secure and reliable.
-
-## 6. Children’s Privacy
-
-Our App is not intended for use by children under the age of 13 (or the applicable age in your region). We do not knowingly collect personal information from children. If we discover that a child has provided us with personal information, we will delete it immediately.
-
-## 7. Changes to This Privacy Policy
-
-We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. These changes are effective immediately after they are posted on this page.
-
-## 8. Contact Us
-
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:
-
-**Email**: qq260316514@gmail.com
+Email: qq260316514@gmail.com
